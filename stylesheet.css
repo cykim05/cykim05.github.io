@@ -1,0 +1,184 @@
+/* Base */
+body {
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Main table (Jon Barron style) */
+table {
+  border: 0;
+  border-spacing: 0;
+  border-collapse: separate;
+}
+
+/* Name */
+.name {
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  padding: 20px 0 10px;
+  margin: 0;
+}
+
+/* Section headings */
+.section-heading {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a1a1a;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 6px;
+  margin: 0;
+}
+
+/* Social links */
+.social-links {
+  text-align: center;
+  padding: 4px 0;
+}
+.social-links a {
+  color: #0066cc;
+  text-decoration: none;
+  margin: 0 6px;
+  font-size: 14px;
+}
+.social-links a:hover {
+  text-decoration: underline;
+}
+.coming-soon {
+  color: #aaa;
+  font-size: 12px;
+}
+
+/* News */
+.news-date {
+  font-weight: 500;
+  color: #555;
+  white-space: nowrap;
+  vertical-align: top;
+  padding-right: 16px;
+  font-size: 14px;
+}
+.news-item {
+  font-size: 14px;
+  color: #333;
+  vertical-align: top;
+}
+
+/* Paper */
+.papertitle {
+  font-weight: 500;
+  color: #1a1a1a;
+}
+.paper-authors {
+  font-size: 14px;
+  color: #555;
+}
+.paper-venue {
+  font-size: 13px;
+  color: #888;
+  font-style: italic;
+}
+.paper-links {
+  font-size: 13px;
+}
+
+/* Badges */
+.badge-review {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 500;
+  color: #0066cc;
+  border: 1px solid #0066cc;
+  border-radius: 3px;
+  padding: 1px 6px;
+  margin-right: 6px;
+}
+.badge-submitted {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 500;
+  color: #888;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 1px 6px;
+  margin-right: 6px;
+}
+
+/* Experience */
+.exp-period {
+  font-size: 13px;
+  color: #888;
+}
+
+/* Profile pic */
+.profile-pic {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Project description */
+.project-desc {
+  font-size: 14px;
+  color: #555;
+}
+.tba {
+  font-size: 13px;
+  color: #aaa;
+  font-style: italic;
+}
+
+/* Awards */
+.award-year {
+  font-weight: 500;
+  color: #555;
+  white-space: nowrap;
+  vertical-align: top;
+  padding-right: 16px;
+  font-size: 14px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  font-size: 12px;
+  color: #aaa;
+  padding: 20px 0;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  body { background: #1a1a1a; color: #e0e0e0; }
+  .section-heading { color: #f0f0f0; border-bottom-color: #333; }
+  .name { color: #fff; }
+  .papertitle { color: #f0f0f0; }
+  a { color: #6db3f2; }
+  .social-links a { color: #6db3f2; }
+  .paper-authors { color: #aaa; }
+  .paper-venue { color: #888; }
+  .news-date { color: #aaa; }
+  .news-item { color: #ddd; }
+  .badge-review { color: #6db3f2; border-color: #6db3f2; }
+  .exp-period { color: #888; }
+  .project-desc { color: #aaa; }
+  .award-year { color: #aaa; }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .profile-pic { width: 140px; }
+}
