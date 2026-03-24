@@ -123,6 +123,20 @@ table {
   color: #888;
 }
 
+/* Highlight for key experience items */
+li.highlight-item {
+  background: linear-gradient(to right, #fef9e7, transparent);
+  padding: 2px 6px;
+  margin-left: -6px;
+  border-radius: 3px;
+}
+
+@media (prefers-color-scheme: dark) {
+  li.highlight-item {
+    background: linear-gradient(to right, #3a3520, transparent);
+  }
+}
+
 /* Paper thumbnail placeholder */
 .paper-thumb {
   width: 100%;
