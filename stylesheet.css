@@ -296,6 +296,7 @@ li.highlight-green {
   }
   ul {
     font-size: 11px !important;
+    padding-left: 14px !important;
   }
   .papertitle {
     font-size: 13px;
