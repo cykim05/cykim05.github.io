@@ -8,20 +8,13 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
-  more_info: >
-    <p>Human-Centered AI Lab</p>
-    <p>Computer Science & Engineering</p>
-    <p>Soongsil University, Seoul, South Korea</p>
+  more_info:
 
 news: true
-selected_papers: true
+selected_papers: false
 social: true
 ---
 
-I am an undergraduate researcher at [Human-Centered AI Lab](https://sites.google.com/view/cauhai), Soongsil University, where I am fortunate to be advised by [Prof. Dahuin Jung](https://sites.google.com/view/cauhai). I joined the lab in Summer 2024 and have since been actively involved in multiple research projects spanning vision-language models, reinforcement learning for LLMs, and efficient AI.
+I am an undergraduate researcher advised by [Prof. Dahuin Jung](https://sites.google.com/view/cauhai) at Soongsil University (since Summer 2024) and a research intern at Chung-Ang University (since Feb 2026).
 
-Since February 2026, I have also been a research intern at the [Human-Centered AI Lab](https://sites.google.com/view/cauhai), Chung-Ang University, also under the guidance of Prof. Dahuin Jung.
-
-My research interests lie in **Vision-Language-Action (VLA) models** and **Natural Language Processing (NLP)**. I am particularly interested in the robustness and linguistic generalization of VLA models in robotic manipulation — investigating how these models handle paraphrased instructions and whether they truly achieve semantic grounding beyond surface-level matching.
-
-I have contributed to multiple publications in domestic AI conferences and journals, and have co-authored submissions to top-tier international venues.
+My research focuses on **Vision-Language-Action (VLA) models** and **NLP** — specifically, the robustness of VLA models to paraphrased instructions and whether they achieve genuine semantic grounding beyond surface-level matching.
