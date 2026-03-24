@@ -123,6 +123,19 @@ table {
   color: #888;
 }
 
+/* Header layout */
+.header-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header-text {
+  flex: 1;
+}
+.header-photo {
+  flex-shrink: 0;
+}
+
 /* Highlight for key experience items */
 li.highlight-item {
   background: linear-gradient(to right, #fef9e7, transparent);
@@ -201,5 +214,18 @@ li.highlight-item {
 
 /* Responsive */
 @media (max-width: 768px) {
-  .profile-pic { width: 140px; }
+  .header-row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .header-text, .header-photo {
+    width: 100% !important;
+    padding: 2.5% !important;
+  }
+  .header-photo {
+    text-align: center;
+  }
+  .profile-pic {
+    width: 180px;
+  }
 }
