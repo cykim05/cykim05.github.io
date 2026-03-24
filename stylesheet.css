@@ -230,7 +230,7 @@ li.highlight-green {
 @media (max-width: 768px) {
   body {
     font-size: 12px;
-    padding: 0 20px;
+    padding: 0 16px;
   }
   .header-row {
     display: flex;
