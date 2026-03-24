@@ -310,18 +310,19 @@ li.highlight-green {
     font-size: 10px;
   }
   .paper-thumb-cell {
-    width: 80px !important;
-    min-width: 80px !important;
-    max-width: 80px !important;
+    width: 90px !important;
+    min-width: 90px !important;
+    max-width: 90px !important;
     vertical-align: top !important;
+    padding-top: 12px !important;
   }
   .paper-thumb {
-    width: 70px;
-    height: 50px;
+    width: 80px;
+    height: 56px;
     padding-bottom: 0;
   }
   .paper-thumb span {
-    font-size: 20px;
+    font-size: 22px;
   }
   .exp-period {
     font-size: 11px;
