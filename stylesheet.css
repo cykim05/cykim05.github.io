@@ -261,11 +261,19 @@ li.highlight-green {
     font-size: 11px;
   }
   td {
-    padding-left: 16px !important;
-    padding-right: 16px !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+  .header-text p {
+    padding: 0 8px;
+  }
+  .social-links {
+    padding: 0 8px;
   }
   .news-date, .award-year {
     font-size: 11px;
+    padding-right: 8px !important;
+    width: auto !important;
   }
   .news-item {
     font-size: 11px;
