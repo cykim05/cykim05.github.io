@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper **"Vision-Language-Action 모델의 Pre-Planning LLM 모델에 따른 성능 및 평가 효율"** was presented at **KIISE 2025**.
+Paper on **VLA Pre-Planning LLM evaluation** presented at **KIISE 2025**.

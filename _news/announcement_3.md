@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our survey paper on **RL-based LLM prompt optimization** was published in the **KICS Journal** (Vol. 42, No. 4).
+Survey on **RL-based LLM prompt optimization** published in **KICS Journal** (Vol. 42, No. 4).
