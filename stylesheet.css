@@ -216,7 +216,7 @@ li.highlight-item {
 @media (max-width: 768px) {
   .header-row {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .header-text, .header-photo {
     width: 100% !important;
