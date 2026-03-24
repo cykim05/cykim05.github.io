@@ -146,6 +146,7 @@ table {
 }
 .detail-list li {
   padding-left: 0;
+  margin-left: -1px;
   margin-bottom: 2px;
 }
 
@@ -153,7 +154,7 @@ table {
 li.highlight-item {
   background: linear-gradient(to right, #fbeec1, transparent);
   padding: 2px 6px 2px 0;
-  margin-left: 0;
+  margin-left: -1px;
   border-radius: 3px;
 }
 
@@ -167,7 +168,7 @@ li.highlight-item {
 li.highlight-green {
   background: linear-gradient(to right, #d4edda, transparent);
   padding: 2px 6px 2px 0;
-  margin-left: 0;
+  margin-left: -1px;
   border-radius: 3px;
 }
 
