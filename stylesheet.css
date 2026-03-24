@@ -6,7 +6,7 @@ body {
   color: #333;
   margin: 0;
   padding: 0;
-  background: #fff;
+  background: #FAF6F1;
 }
 
 a {
@@ -38,7 +38,7 @@ table {
   font-size: 20px;
   font-weight: 600;
   color: #1a1a1a;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid #ddd5cc;
   padding-bottom: 6px;
   margin: 0;
 }
@@ -138,7 +138,7 @@ table {
 
 /* Highlight for key experience items */
 li.highlight-item {
-  background: linear-gradient(to right, #fef9e7, transparent);
+  background: linear-gradient(to right, #fbeec1, transparent);
   padding: 2px 6px;
   margin-left: -6px;
   border-radius: 3px;
@@ -152,7 +152,7 @@ li.highlight-item {
 
 /* Green highlight for project roles */
 li.highlight-green {
-  background: linear-gradient(to right, #edf7ed, transparent);
+  background: linear-gradient(to right, #d4edda, transparent);
   padding: 2px 6px;
   margin-left: -6px;
   border-radius: 3px;
