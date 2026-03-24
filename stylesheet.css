@@ -230,7 +230,7 @@ li.highlight-green {
 @media (max-width: 768px) {
   body {
     font-size: 12px;
-    padding: 0 16px;
+    padding: 0 10px;
   }
   .header-row {
     display: flex;
@@ -261,19 +261,20 @@ li.highlight-green {
     font-size: 11px;
   }
   td {
-    padding-left: 8px !important;
-    padding-right: 8px !important;
+    padding-left: 4px !important;
+    padding-right: 4px !important;
   }
   .header-text p {
-    padding: 0 8px;
+    padding: 0 4px;
   }
   .social-links {
-    padding: 0 8px;
+    padding: 0 4px;
   }
   .news-date, .award-year {
     font-size: 11px;
-    padding-right: 8px !important;
+    padding-right: 4px !important;
     width: auto !important;
+    min-width: 60px;
   }
   .news-item {
     font-size: 11px;
@@ -298,6 +299,12 @@ li.highlight-green {
   }
   .exp-period {
     font-size: 11px;
+  }
+  /* Force narrow left columns on mobile */
+  table td:first-child {
+    width: auto !important;
+    min-width: 0 !important;
+    white-space: normal !important;
   }
   .project-desc {
     font-size: 11px;
