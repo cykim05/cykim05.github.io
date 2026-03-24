@@ -1,10 +1,10 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
 title: CV
 nav: true
 nav_order: 4
-description:
-toc:
-  sidebar: left
+description: To be updated.
 ---
+
+*Coming soon.*

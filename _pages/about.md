@@ -22,6 +22,6 @@ I am an undergraduate researcher at [Human-Centered AI Lab](https://sites.google
 
 Since February 2026, I have also been a research intern at the [Human-Centered AI Lab](https://sites.google.com/view/cauhai), Chung-Ang University, also under the guidance of Prof. Dahuin Jung.
 
-My research interests include **Vision-Language Models (VLMs)**, **LLM optimization**, and **efficient AI for real-world applications**. I am particularly interested in model compression, prompt optimization through reinforcement learning, and multi-modal generation.
+My research interests lie in **Vision-Language-Action (VLA) models** and **Natural Language Processing (NLP)**. I am particularly interested in the robustness and linguistic generalization of VLA models in robotic manipulation — investigating how these models handle paraphrased instructions and whether they truly achieve semantic grounding beyond surface-level matching.
 
 I have contributed to multiple publications in domestic AI conferences and journals, and have co-authored submissions to top-tier international venues.
