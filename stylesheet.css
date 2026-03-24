@@ -136,11 +136,24 @@ table {
   flex-shrink: 0;
 }
 
+/* Detail bullet lists */
+.detail-list {
+  margin: 4px 0 0 0;
+  padding-left: 18px;
+  font-size: 14px;
+  color: #555;
+  list-style-position: outside;
+}
+.detail-list li {
+  padding-left: 0;
+  margin-bottom: 2px;
+}
+
 /* Highlight for key experience items */
 li.highlight-item {
   background: linear-gradient(to right, #fbeec1, transparent);
-  padding: 2px 6px;
-  margin-left: -6px;
+  padding: 2px 6px 2px 0;
+  margin-left: 0;
   border-radius: 3px;
 }
 
@@ -153,8 +166,8 @@ li.highlight-item {
 /* Green highlight for project roles */
 li.highlight-green {
   background: linear-gradient(to right, #d4edda, transparent);
-  padding: 2px 6px;
-  margin-left: -6px;
+  padding: 2px 6px 2px 0;
+  margin-left: 0;
   border-radius: 3px;
 }
 
