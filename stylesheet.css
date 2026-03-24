@@ -312,6 +312,9 @@ li.highlight-green {
     font-size: 11px !important;
     padding-left: 14px !important;
   }
+  .detail-list li {
+    padding-left: 4px !important;
+  }
   .papertitle {
     font-size: 13px;
   }
