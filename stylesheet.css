@@ -153,7 +153,7 @@ table {
 /* Highlight for key experience items */
 li.highlight-item {
   background: linear-gradient(to right, #fbeec1, transparent);
-  padding: 2px 6px 2px 0;
+  padding: 2px 6px 2px 4px;
   margin-left: -1px;
   border-radius: 3px;
 }
@@ -167,7 +167,7 @@ li.highlight-item {
 /* Green highlight for project roles */
 li.highlight-green {
   background: linear-gradient(to right, #d4edda, transparent);
-  padding: 2px 6px 2px 0;
+  padding: 2px 6px 2px 4px;
   margin-left: -1px;
   border-radius: 3px;
 }
