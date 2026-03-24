@@ -145,7 +145,7 @@ table {
   list-style-position: outside;
 }
 .detail-list li {
-  padding-left: 0;
+  padding-left: 4px;
   margin-left: -1px;
   margin-bottom: 2px;
 }
