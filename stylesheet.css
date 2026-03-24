@@ -150,6 +150,20 @@ li.highlight-item {
   }
 }
 
+/* Green highlight for project roles */
+li.highlight-green {
+  background: linear-gradient(to right, #edf7ed, transparent);
+  padding: 2px 6px;
+  margin-left: -6px;
+  border-radius: 3px;
+}
+
+@media (prefers-color-scheme: dark) {
+  li.highlight-green {
+    background: linear-gradient(to right, #1e3a1e, transparent);
+  }
+}
+
 /* Paper thumbnail placeholder */
 .paper-thumb {
   width: 100%;
