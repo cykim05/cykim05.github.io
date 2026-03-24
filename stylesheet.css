@@ -229,17 +229,16 @@ li.highlight-green {
 /* Responsive */
 @media (max-width: 768px) {
   body {
-    font-size: 13px;
-    padding: 0 12px;
+    font-size: 12px;
+    padding: 0 20px;
   }
   .header-row {
     display: flex;
     flex-direction: column;
-    text-align: center;
   }
   .header-text, .header-photo {
     width: 100% !important;
-    padding: 8px 12px !important;
+    padding: 8px 0 !important;
   }
   .header-text {
     text-align: left;
@@ -249,38 +248,50 @@ li.highlight-green {
     order: -1;
   }
   .profile-pic {
-    width: 160px;
+    width: 150px;
   }
   .name {
     font-size: 22px;
     margin-bottom: 4px;
   }
   .section-heading {
-    font-size: 17px;
+    font-size: 16px;
   }
   .social-links a {
-    font-size: 12px;
-  }
-  td {
-    padding-left: 12px !important;
-    padding-right: 12px !important;
-  }
-  .news-date, .award-year {
-    font-size: 12px;
-  }
-  .news-item {
-    font-size: 12px;
-  }
-  ul {
-    font-size: 12px !important;
-  }
-  .paper-authors {
-    font-size: 12px;
-  }
-  .paper-venue {
     font-size: 11px;
   }
+  td {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+  .news-date, .award-year {
+    font-size: 11px;
+  }
+  .news-item {
+    font-size: 11px;
+  }
+  ul {
+    font-size: 11px !important;
+  }
+  .papertitle {
+    font-size: 13px;
+  }
+  .paper-authors {
+    font-size: 11px;
+  }
+  .paper-venue {
+    font-size: 10px;
+  }
   .paper-links {
+    font-size: 10px;
+  }
+  .paper-thumb {
+    display: none;
+  }
+  .exp-period {
+    font-size: 11px;
+  }
+  .project-desc {
     font-size: 11px;
   }
 }
