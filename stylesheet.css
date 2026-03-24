@@ -306,7 +306,13 @@ li.highlight-green {
     font-size: 10px;
   }
   .paper-thumb {
-    padding-bottom: 80%;
+    width: 40px;
+    height: 40px;
+    padding-bottom: 0;
+    font-size: 18px;
+  }
+  table td:first-child:has(.paper-thumb) {
+    width: 50px !important;
   }
   .exp-period {
     font-size: 11px;
