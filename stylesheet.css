@@ -88,7 +88,7 @@ table {
 }
 .paper-venue {
   font-size: 13px;
-  color: #888;
+  color: #1a1a1a;
 }
 .paper-links {
   font-size: 13px;
@@ -245,7 +245,7 @@ li.highlight-green {
   a { color: #6db3f2; }
   .social-links a { color: #6db3f2; }
   .paper-authors { color: #aaa; }
-  .paper-venue { color: #888; }
+  .paper-venue { color: #f0f0f0; }
   .news-date { color: #aaa; }
   .news-item { color: #ddd; }
   .badge-review { color: #6db3f2; border-color: #6db3f2; }
