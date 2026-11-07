@@ -82,6 +82,8 @@ details.section-toggle > summary {
   list-style: none;
   cursor: pointer;
   padding: 16px;
+  user-select: none;
+  -webkit-user-select: none;
 }
 details.section-toggle > summary::-webkit-details-marker {
   display: none;
@@ -97,6 +99,23 @@ details.section-toggle > summary .section-heading::before {
 }
 details.section-toggle[open] > summary .section-heading::before {
   transform: rotate(90deg);
+}
+details.section-toggle > summary .toggle-hint {
+  font-size: 12px;
+  font-weight: 400;
+  color: #999;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+details.section-toggle > summary .toggle-hint::after {
+  content: "(click to open)";
+}
+details.section-toggle[open] > summary .toggle-hint::after {
+  content: "(click to close)";
+}
+details.section-toggle > summary:hover .section-heading::before,
+details.section-toggle > summary:hover .toggle-hint {
+  color: #0066cc;
 }
 
 /* Paper */
@@ -262,6 +281,9 @@ li.highlight-green {
 @media (prefers-color-scheme: dark) {
   body { background: #1a1a1a; color: #e0e0e0; }
   .section-heading { color: #f0f0f0; border-bottom-color: #333; }
+  details.section-toggle > summary .toggle-hint { color: #888; }
+  details.section-toggle > summary:hover .section-heading::before,
+  details.section-toggle > summary:hover .toggle-hint { color: #6db3f2; }
   .name { color: #fff; }
   .papertitle { color: #f0f0f0; }
   a { color: #6db3f2; }
@@ -306,6 +328,14 @@ li.highlight-green {
   }
   .section-heading {
     font-size: 16px;
+  }
+  details.section-toggle > summary .toggle-hint {
+    font-size: 10px;
+    margin-left: 6px;
+  }
+  details.section-toggle > summary .section-heading::before {
+    font-size: 11px;
+    margin-right: 6px;
   }
   .social-links a {
     font-size: 11px;
