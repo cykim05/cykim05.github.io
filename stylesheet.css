@@ -77,6 +77,28 @@ table {
   vertical-align: top;
 }
 
+/* Collapsible section */
+details.section-toggle > summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 16px;
+}
+details.section-toggle > summary::-webkit-details-marker {
+  display: none;
+}
+details.section-toggle > summary .section-heading::before {
+  content: "\25B6";
+  display: inline-block;
+  font-size: 13px;
+  color: #888;
+  margin-right: 8px;
+  vertical-align: middle;
+  transition: transform 0.15s ease;
+}
+details.section-toggle[open] > summary .section-heading::before {
+  transform: rotate(90deg);
+}
+
 /* Paper */
 .papertitle {
   font-weight: 500;
